@@ -275,6 +275,12 @@ span {
   width: 100%;
 }
 
+.skillsLogoRapidMiner {
+  margin-top: 20px;
+  width: 2cm;
+  height: 2cm;
+}
+
 .skillsName {
   position: absolute;
   bottom: 30px;
