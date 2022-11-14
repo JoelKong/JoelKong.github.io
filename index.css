@@ -1,0 +1,345 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  vertical-align: middle;
+  text-align: center;
+  background-color: #2b3137;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 10px;
+}
+
+#profilepic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contact1 {
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+
+.contact2 {
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+}
+
+.contact3 {
+  margin-top: 15px;
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
+}
+
+.contact4 {
+  margin-top: 15px;
+  display: inline-block;
+  position: relative;
+  margin-left: 5px;
+}
+
+.handles,
+.portfolio {
+  text-align: center;
+}
+
+i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#linkedin {
+  font-size: 30px;
+  color: #0e76a8;
+}
+
+#medium {
+  font-size: 28px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#resume {
+  font-size: 30px;
+  color: #a3c1ad;
+}
+
+#title {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.repositories {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.worksamples {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#repo1,
+#repo2,
+#repo3,
+#repo4,
+#repo5,
+#repo6 {
+  display: flex;
+  width: 9cm;
+  height: 2.5cm;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #2b3137;
+}
+
+#repo7,
+#repo8,
+#repo9,
+#repo10,
+#repo11,
+#repo12 {
+  display: flex;
+  width: 19cm;
+  height: 3cm;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #2b3137;
+}
+
+/* To be done */
+#repo9,
+#repo10,
+#repo11,
+#repo12 {
+  display: none;
+}
+
+.companylogo {
+  padding-top: 10px;
+}
+
+#break {
+  width: 100%;
+}
+.repolink {
+  color: #2b3137;
+  font-weight: bolder;
+}
+
+.publications-flex {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.publicationsLink {
+  color: #2b3137;
+  font-weight: bolder;
+  text-align: left;
+  padding-left: 10px;
+}
+.publicationsContent {
+  text-align: left;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+#article1,
+#article2 {
+  display: flex;
+  flex-flow: wrap;
+  width: 10.5cm;
+  height: 3.5cm;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #2b3137;
+}
+
+.minutesRead {
+  text-align: right;
+  margin-right: -160px;
+  margin-bottom: -160px;
+  height: 0.4cm;
+  margin-left: 9cm;
+  background-color: papayawhip;
+}
+
+/* Status of repository */
+#ongoing {
+  color: red;
+}
+
+#completed {
+  color: green;
+}
+
+span {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: x-small;
+}
+
+#repoName4 {
+  width: 100%;
+}
+
+#span4 {
+  position: relative;
+  top: 20px;
+}
+
+/* Skills section */
+.skills {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#skill1,
+#skill2,
+#skill3,
+#skill4,
+#skill5,
+#skill6,
+#skill7,
+#skill8,
+#skill9,
+#skill10,
+#skill11 {
+  display: flex;
+  justify-content: center;
+  width: 7cm;
+  height: 4cm;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #2b3137;
+  position: relative;
+}
+
+.skillsLogo {
+  margin-top: 20px;
+  width: 2cm;
+  height: 2cm;
+  width: 100%;
+}
+
+.skillsName {
+  position: absolute;
+  bottom: 30px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* Hackathons and events */
+.hackathons {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#event1,
+#event2,
+#event3,
+#event4 {
+  display: flex;
+  justify-content: center;
+  width: 16cm;
+  height: 4cm;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  padding-right: 60px;
+  border-radius: 5px;
+  color: #2b3137;
+  position: relative;
+}
+
+.column1 {
+  flex: 30%;
+  margin-top: 20px;
+}
+
+.column2 {
+  flex: 70%;
+  margin-top: 20px;
+}
+
+#eventName {
+  color: #2b3137;
+  font-size: large;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+#eventLogo {
+  width: 3cm;
+  height: 3cm;
+}
+#eventLogo1 {
+  width: 3cm;
+  height: 3cm;
+  object-fit: scale-down;
+}
+
+#gsengage2021 {
+  color: blueviolet;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+#firstplace {
+  color: gold;
+}
